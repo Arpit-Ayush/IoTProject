@@ -8,4 +8,5 @@ A simple model framework of IoT using Arduino UNO, Ultrasonic and RFID sensors t
 * Servo motor
 * LED light
 * Buzzer
+* Connecting Bus/Wire
 * Bread Board
