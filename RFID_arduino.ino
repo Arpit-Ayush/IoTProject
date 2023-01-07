@@ -44,12 +44,14 @@ Void loop(){
     Serial.print("Message : ");  content.toUpperCase();  
     if ((content.substring(1) == "90 CB 00 A9") || (content.substring(1) == "A9 34 25 D9")){   
       SM.write(0);   
-      Serial.println("Authorized access");    delay(3000);    
+      Serial.println("Authorized access");    
+      delay(3000);    
       SM.write(180);    
       Serial.println();   
       delay(3000); 
     } 
     else {   
-      Serial.println(" Access denied");    delay(1000); 
+      Serial.println(" Access denied");    
+      delay(1000); 
     }
 }
